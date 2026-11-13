@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "gamemaker": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "gamemaker-mcp@latest"
+      ],
+      "env": {
+        "GAMEMAKER_PROJECT": "${workspaceFolder}/GMS_MCP_Test.yyp",
+        "GAMEMAKER_MCP_MODE": "workspace-write",
+        "GAMEMAKER_MCP_ALLOW_BUILD": "1",
+        "GAMEMAKER_PATH": "E:\\SteamLibrary\\steamapps\\common\\GameMaker Studio 2\\GameMaker.exe"
+      }
+    }
+  }
+}
